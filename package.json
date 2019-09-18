@@ -1,0 +1,28 @@
+{
+  "name": "webfile-stream-to-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "author": "jiri.smolik@ackee.cz",
+  "license": "WTFPL",
+  "devDependencies": {
+    "@types/got": "^9.6.7",
+    "@types/mime": "^2.0.1",
+    "@types/node": "^12.7.5",
+    "@types/request": "^2.48.3",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "mime": "^2.4.4",
+    "request": "^2.88.0"
+  }
+}
