@@ -19,6 +19,9 @@ export default async (imageUrl: string, fileName: string) => {
                     .catch(reject)
                     .then(resolve);
             })
+            // If uncommented, stream finished and promise resolves as expected.
+            // But breaks the backpressure IMO.
+            // .on('data', () => {})
             .on('error', reject);
     });
 }
